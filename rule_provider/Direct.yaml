@@ -1,0 +1,17 @@
+payload:
+# > App XL
+  - DOMAIN-SUFFIX,id-app.liveon.id
+  - DOMAIN-SUFFIX,liveon.id
+  - DOMAIN-SUFFIX,api.myxl.xlaxiata.co
+  - DOMAIN-SUFFIX,api.myxl.xlaxiata.co.id
+  - DOMAIN-KEYWORD,xlaxiata
+  - DOMAIN-KEYWORD,xlaxiata2
+  - DOMAIN-KEYWORD,xlaxiata-resources
+  - DOMAIN-SUFFIX,rajaampat.xl.co.id
+  - DOMAIN-KEYWORD,rajaampat.xl.co.id
+# > App Mytelkomsel
+  - DOMAIN-KEYWORD,telkomsel
+  - DOMAIN-SUFFIX,telkomsel.com
+  - DOMAIN-SUFFIX,my.telkomsel.com
+  - PROCESS-NAME,com.telkomsel.telkomselcm
+  - PROCESS-NAME,com.myorbit

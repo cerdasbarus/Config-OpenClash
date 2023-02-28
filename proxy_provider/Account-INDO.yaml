@@ -1,0 +1,35 @@
+proxies:
+- name: Eth2-UAS[globalssh]
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: bded3dba-3eea-44f4-afb7-2e3e18eaf198
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: uas-id01.ipv2ray.xyzz
+  network: ws
+  ws-opts:
+    path: /vmess-ws/indocafe
+    headers:
+      Host: uas-id01.ipv2ray.xyz
+  udp: true
+  interface-name: eth2
+- name: Eth3-UAS[globalssh]
+  server: 104.21.235.172
+  port: 443
+  type: vmess
+  uuid: bded3dba-3eea-44f4-afb7-2e3e18eaf198
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: uas-id01.ipv2ray.xyzz
+  network: ws
+  ws-opts:
+    path: /vmess-ws/indocafe
+    headers:
+      Host: uas-id01.ipv2ray.xyz
+  udp: true
+  interface-name: eth3

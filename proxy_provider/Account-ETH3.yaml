@@ -1,0 +1,89 @@
+proxies:
+- name: eth3-VIP[globalssh]
+  server: 104.21.235.172
+  port: 443
+  type: vless
+  uuid: ac4a91f0-bd53-4ee6-8b12-5bffbfdf0b94
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vip07.globalssh.com
+  network: ws
+  ws-opts:
+    path: /vless-ws
+    headers:
+      Host: vip07.globalssh.com
+  udp: true
+  interface-name: eth3
+- name: eth3-SGGSgrpc[globalssh]
+  server: 104.21.235.172
+  port: 443
+  type: trojan
+  password: fanny3005
+  skip-cert-verify: true
+  sni: sggs-sg01.iptr.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sggs-sg01.iptr.xyz
+  udp: true
+  interface-name: eth3
+- name: eth3-OVH[globalssh]
+  server: 104.21.235.172
+  port: 443
+  type: trojan
+  password: ovh3005
+  skip-cert-verify: true
+  sni: ovh-sg01.iptr.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: ovh-sg01.iptr.xyz
+  udp: true
+  interface-name: eth3
+- name: eth3-AWS[hidessh]
+  server: 104.21.235.172
+  port: 443
+  type: trojan
+  password: a9ef63ce-710f-4eb1-be90-8ad66524abb5
+  skip-cert-verify: true
+  sni: sg1-vip.csrvpn.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1-vip.csrvpn.my.id
+  udp: true
+  interface-name: eth3
+- name: eth3-CSvpn[hidessh]
+  server: 104.21.235.172
+  port: 443
+  type: trojan
+  password: 715885b6-8495-47e6-bc04-08bc66246fba
+  skip-cert-verify: true
+  sni: sgdo2.bayarparkir.my.id
+  network: ws
+  ws-opts:
+    path: /hidessh-trojan-ws
+    headers:
+      Host: sgdo2.bayarparkir.my.id
+  udp: true
+  interface-name: eth3
+- name: eth3-Ocean[sahabatssh]
+  server: 104.21.235.172
+  port: 443
+  type: vless
+  uuid: c660b2e8-ab4a-57a8-917a-b8ea60831247
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sgdo001.myipxray.com
+  network: ws
+  ws-opts:
+    path: xrayvless
+    headers:
+      Host: sgdo001.myipxray.com
+  udp: true
+  interface-name: eth3

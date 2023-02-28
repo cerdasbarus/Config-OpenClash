@@ -1,0 +1,14 @@
+payload:
+# > Windows Update
+  - DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,download.windowsupdate.com
+  - DOMAIN-SUFFIX,international-gfe.download.nvidia.com
+  - DOMAIN-SUFFIX,geforce.com
+# > Apple Update
+  - DOMAIN-SUFFIX,updates.cdn-apple.com
+# >  Update Vivo.Oppo
+  - DOMAIN-SUFFIX,vivoglobal.com
+  - DOMAIN-SUFFIX,vivo.com
+  - DOMAIN-SUFFIX,oppomobile.com
+  - DOMAIN,asia-sysupakdl.vivoglobal.com.abc-jns.swiftserve.com
+

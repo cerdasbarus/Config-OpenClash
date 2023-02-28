@@ -1,0 +1,20 @@
+payload:
+# > Mikhmon & Winbox Online
+  #TCP
+  - DST-PORT,3478
+  - DST-PORT,1194
+# > Zerotier
+  #- DOMAIN,my.zerotier.com
+  #- DOMAIN-SUFFIX,zerotier.com
+  #UDP
+  - DST-PORT,9993
+# > HIGGS DOMINO
+  #- DOMAIN-SUFFIX,neptunegame.com
+  #- DOMAIN-SUFFIX,i.neptunegame.com
+  #- DOMAIN-SUFFIX,update.neptunegame.com
+  - DOMAIN-KEYWORD,.bankmandiri
+  - DOMAIN-SUFFIX,eum.omni.bankmandiri.co.id
+  - DOMAIN-SUFFIX,mobile.omni.bankmandiri.co.id
+  - DOMAIN-SUFFIX,mbankmon.klikbca.com
+  - DOMAIN-SUFFIX,mbanktrans.klikbca.com
+  - DOMAIN-KEYWORD,bca

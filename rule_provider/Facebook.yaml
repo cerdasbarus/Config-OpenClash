@@ -1,0 +1,21 @@
+payload:
+# > Facebook
+  - DOMAIN-SUFFIX,messenger.com
+  - DOMAIN-SUFFIX,m.me
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,facebook.net
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,fbaddins.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN,fblite-mini.c10r.facebook.com
+  - DOMAIN-SUFFIX,fbworkmail.com
+  - DOMAIN-KEYWORD,.facebook.
+  - DOMAIN-SUFFIX,facebookmail.com
+  - DOMAIN-SUFFIX,oculus.com
+  - DOMAIN-SUFFIX,oculuscdn.com
+  - DOMAIN-SUFFIX,rocksdb.org
+# > Instagram
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,instagram.com
